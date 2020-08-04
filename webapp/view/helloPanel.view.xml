@@ -1,0 +1,11 @@
+<mvc:view controllerName="nacho1.UI5_2.controller.helloPanel" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core">
+	<Panel headerText="{i18n>panelTitle}" class="sapUiLargeMarginBegin sapUiLargeMarginBottom" width="auto">
+		<content>
+			<Button id="HelloButton1" icon="sap-icon://message-popup" text="{i18n>OpenDialogText}" press="onOpenDialog" class="sapUiLargeMarginEnd"/>
+			<Button text="{i18n>buttonHolaMundo}" press="onShowHola" class="sapUiLargeMarginEnd"/>
+			<Input value="{/persona/nombre}" width="70%" valueLiveUpdate="true"/>
+			<Text text="Hola {/persona/nombre}" class="sapUiSmallMargin myCustomText sapThemingligth-asColor"/>
+		</content>
+	</Panel>
+	<core:Fragment fragmentName="nacho1.UI5_2.view.Form01" type="XML"/>
+</mvc:view>

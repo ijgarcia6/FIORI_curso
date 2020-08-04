@@ -1,0 +1,18 @@
+<mvc:view controllerName="nacho1.UI5_2.controller.app" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns:core="sap.ui.core">
+	<Shell>
+		<App class="myCustomStyle">
+			<pages>
+				<Page title='{i18n>HomeTitlePage}'>
+					<headerContent>
+						<Button id="HelloButton2" icon="sap-icon://message-popup" text="{i18n>dialoge2text}" press="onOpenDialog2" class="sapUiLargeMarginEnd"/>
+					</headerContent>
+					<content>
+						<mvc:XMLView viewName="nacho1.UI5_2.view.helloPanel"/>
+						<mvc:XMLView viewName="nacho1.UI5_2.view.InvoiceList"/>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:view>
