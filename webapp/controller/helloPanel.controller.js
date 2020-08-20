@@ -4,7 +4,11 @@ sap.ui.define([
 	"sap/ui/core/Fragment"
 ], function (Controller, MessageToast, Fragment) {
 	"use strict";
+<<<<<<< Upstream, based on origin/master
 
+=======
+  
+>>>>>>> cadf751 commit nuevo
 	return Controller.extend("nacho1.UI5_2.controller.helloPanel", {
 
 		onInit: function () {

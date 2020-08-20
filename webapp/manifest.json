@@ -14,7 +14,11 @@
 			"version": "1.40.12"
 		}
 	},
+<<<<<<< Upstream, based on origin/master
 
+=======
+  
+>>>>>>> cadf751 commit nuevo
 	"sap.ui": {
 		"technology": "UI5",
 		"icons": {

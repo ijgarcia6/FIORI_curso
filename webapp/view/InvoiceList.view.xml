@@ -1,3 +1,4 @@
+<<<<<<< Upstream, based on origin/master
 <mvc:view controllerName="nacho1.UI5_2.controller.InvoiceList" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
 	<List headerText="{i18n>invoiceHeader}" class="sapUiResponsiveMargin" width="auto" items="{invoice>/Invoices}">
 		<items>
@@ -14,3 +15,27 @@
 		</items>
 	</List>
 </mvc:view>
+=======
+<xml:view controllerName="nacho1.UI5_2.controller.InvoiceList" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<List id="invoicesList" headerText="{i18n>invoiceHeader}" class="sapUiResponsiveMargin" width="auto" items="{invoice>/Invoices}">
+		<headerToolbar>
+			<Toolbar>
+				<Title text="{i18n>invoiceHeader}"/>
+				<ToolbarSpacer/>
+				<SearchField width="50%" search=".onFilterInvoices"/>
+			</Toolbar>
+		</headerToolbar>
+		<items>
+			<ObjectListItem title="{invoice>Quantity} x {invoice>ProductName}"
+				number="{ parts: [{path: 'invoice>ExtendedPrice'}, {path: 'view>/currency'}], type: 'sap.ui.model.type.Currency', formatOptions: {showMessure: false} }"
+				numberState="{= ${invoice>ExtendedPrice} > 50 ? 'Error' : 'Success' }" numberUnit="{view>/currency}">
+				<firstStatus>
+					<ObjectStatus text="{
+					path : 'invoice>Status', 
+					formatter : '.formatter.statusText' }"/>
+				</firstStatus>
+			</ObjectListItem>
+		</items>
+	</List>
+</xml:view>
+>>>>>>> cadf751 commit nuevo

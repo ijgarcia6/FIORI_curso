@@ -15,4 +15,8 @@
 			</pages>
 		</App>
 	</Shell>
+<<<<<<< Upstream, based on origin/master
 </mvc:view>
+=======
+</mvc:view>  
+>>>>>>> cadf751 commit nuevo

@@ -2,7 +2,11 @@ sap.ui.define([
 	"sap/ui/base/ManagedObject",
 	"sap/ui/core/Fragment"
 ], function (ManagedObject, Fragment) {
+<<<<<<< Upstream, based on origin/master
 
+=======
+ 
+>>>>>>> cadf751 commit nuevo
 	return ManagedObject.extend("nacho1.UI5_2.controller.HelloDialog", {
 
 		constructor: function (oView) {
