@@ -19,10 +19,6 @@
 		"ExtendedPrice": 7863.4500,
 		"ShiperName": "ACME",
 		"ShiperDate": "2015-01-03",
-<<<<<<< Upstream, based on origin/master
-		"Status": "B"
-=======
 		"Status": "C"
->>>>>>> cadf751 commit nuevo
 	}]
 }
