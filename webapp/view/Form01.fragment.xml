@@ -4,9 +4,5 @@
 			<Label text="{i18n>TextFrLabel}" labelFor="ifFragment" class="sapUiSmallMargin"/>
 			<Input id="ifFragment" width="30%"/>
 		</content>
-<<<<<<< Upstream, based on origin/master
 	</Panel>	
-=======
-	</Panel>	  
->>>>>>> cadf751 commit nuevo
 </core:FragmentDefinition>
