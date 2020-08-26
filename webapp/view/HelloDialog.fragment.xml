@@ -8,8 +8,5 @@
 			<Button text="{i18n>ButtonBackText}" press=".onCloseDialog"/>
 		</beginButton>
 	</Dialog>
-<<<<<<< Upstream, based on origin/master
 </core:FragmentDefinition>
-=======
-</core:FragmentDefinition>  
->>>>>>> cadf751 commit nuevo
+
