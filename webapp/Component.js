@@ -5,11 +5,7 @@ sap.ui.define([
 	"./controller/HelloDialog"
 ], function (UIComponent, models, ResourceModel, HelloDialog) {
 	"use strict";
-<<<<<<< Upstream, based on origin/master
 
-=======
-    
->>>>>>> cadf751 commit nuevo
 	return UIComponent.extend("nacho1.UI5_2.Component", {
 
 		metadata: {
