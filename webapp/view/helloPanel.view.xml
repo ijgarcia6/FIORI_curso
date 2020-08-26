@@ -8,8 +8,5 @@
 		</content>
 	</Panel>
 	<core:Fragment fragmentName="nacho1.UI5_2.view.Form01" type="XML"/>
-<<<<<<< Upstream, based on origin/master
 </mvc:view>
-=======
-</mvc:view>   
->>>>>>> cadf751 commit nuevo
+
