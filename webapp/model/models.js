@@ -14,9 +14,6 @@ sap.ui.define([
 			return new JSONModel(oData);
 		}
 
-<<<<<<< Upstream, based on origin/master
-	};
-=======
 	};  
->>>>>>> cadf751 commit nuevo
+
 });
